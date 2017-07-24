@@ -1,0 +1,54 @@
+/* Reset CSS */
+*, *:after, *:before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+body {
+	position: relative;
+	height: 100%;
+}
+
+footer {
+	clear: both;
+}
+
+.rodape {
+	margin: auto;
+	width: 100%;
+	bottom: 0;
+	position: fixed;
+	background-color: black;
+	height: 100px;
+}
+
+.social {
+	list-style: none;
+}
+
+.social li {
+	float: left;
+	margin-left: 10px;
+	padding-top: 25px;
+}
+
+.Copyright {
+	color: white;
+	bottom: 0;
+	position: fixed;
+	margin-left: 12px;
+}
+
+.tabela-mercadoria {
+	margin-top: 15px;
+	margin-left: 15px;
+	width: 50%;
+}
+
+.botoes {
+	margin-left: 15px;
+}
